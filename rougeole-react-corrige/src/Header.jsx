@@ -1,5 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import erupation from './IMG-20250520-WA0013.jpg"';
+
 
 function Header() {
   return (
@@ -8,7 +10,7 @@ function Header() {
         {/* Logo + titre */}
         <div className="flex items-center space-x-2 mb-2 md:mb-0">
           <img
-            src="/src/IMG-20250520-WA0013.jpg"
+            src={erupation}
             alt="Prévention"
             className="h-10 w-auto rounded-full"
           />

@@ -2,6 +2,15 @@ import React from 'react';
 import InfoCard from './InfoCard';
 import { ArrowRight, AlertTriangle, Shield, Activity } from 'lucide-react';
 
+// ✅ Import correct des images
+import erupation from './IMG-20250520-WA0014.jpg';
+import erupation2 from './IMG-20250520-WA0015.jpg';
+import erupation3 from './IMG-20250520-WA0005.jpg';
+import illustartion from './IMG-20250520-WA0011.jpg';
+import prevention from './IMG-20250520-WA0013.jpg';
+import complixation from './complixation.jpg';
+import Conjonctivite from './IMG-20250520-WA0012.jpg';
+
 function HomePage() {
   return (
     <div className="space-y-12">
@@ -56,7 +65,7 @@ function HomePage() {
             </p>
             <div className="mt-4 text-center">
               <img 
-                src="/src/IMG-20250520-WA0011.jpg" 
+                src={illustartion}
                 alt="Illustration contagion" 
                 className="w-24 h-24 object-cover rounded-full mx-auto border-4 border-yellow-200"
               />
@@ -73,7 +82,7 @@ function HomePage() {
             </p>
             <div className="mt-4 text-center">
               <img 
-                src="/src/IMG-20250520-WA0013.jpg" 
+                src={prevention}
                 alt="Prévention" 
                 className="w-24 h-24 object-cover rounded-full mx-auto border-4 border-green-200"
               />
@@ -90,7 +99,7 @@ function HomePage() {
             </p>
             <div className="mt-4 text-center">
               <img 
-                src="/src/complixation.jpg" 
+                src={complixation}
                 alt="Complications" 
                 className="w-24 h-24 object-cover rounded-full mx-auto border-4 border-red-200"
               />
@@ -108,19 +117,19 @@ function HomePage() {
         
         <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
           <div className="overflow-hidden rounded-lg shadow-md hover:shadow-xl transition-shadow duration-300 bg-white">
-            <img src="/src/IMG-20250520-WA0014.jpg" alt="Symptôme rougeole" className="w-full h-48 object-cover" />
+            <img src={erupation} alt="Symptôme rougeole" className="w-full h-48 object-cover" />
             <p className="p-3 text-sm text-center font-medium">Éruption cutanée sur la main</p>
           </div>
           <div className="overflow-hidden rounded-lg shadow-md hover:shadow-xl transition-shadow duration-300 bg-white">
-            <img src="/src/IMG-20250520-WA0015.jpg" alt="Symptôme rougeole" className="w-full h-48 object-cover" />
+            <img src={erupation2} alt="Symptôme rougeole" className="w-full h-48 object-cover" />
             <p className="p-3 text-sm text-center font-medium">Éruption sur le bras</p>
           </div>
           <div className="overflow-hidden rounded-lg shadow-md hover:shadow-xl transition-shadow duration-300 bg-white">
-            <img src="/src/IMG-20250520-WA0012.jpg" alt="Symptôme rougeole" className="w-full h-48 object-cover" />
+            <img src={Conjonctivite} alt="Symptôme rougeole" className="w-full h-48 object-cover" />
             <p className="p-3 text-sm text-center font-medium">Conjonctivite</p>
           </div>
           <div className="overflow-hidden rounded-lg shadow-md hover:shadow-xl transition-shadow duration-300 bg-white">
-            <img src="/src/IMG-20250520-WA0005.jpg" alt="Symptôme rougeole" className="w-full h-48 object-cover" />
+            <img src={erupation3} alt="Symptôme rougeole" className="w-full h-48 object-cover" />
             <p className="p-3 text-sm text-center font-medium">Éruption chez l'enfant</p>
           </div>
         </div>

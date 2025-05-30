@@ -253,7 +253,7 @@ function CommentsPage() {
             <button
               onClick={handleSubmit}
               disabled={isSubmitting}
-              className={`flex items-center px-6 py-3 rounded-lg font-semibold text-white transition-all duration-300 shadow-md ${
+              className={`bg-black flex items-center px-6 py-3 rounded-lg font-semibold text-white transition-all duration-300 shadow-md ${
                 isSubmitting 
                   ? 'bg-gray-400 cursor-not-allowed' 
                   : 'bg-yellow-500 hover:bg-yellow-600'

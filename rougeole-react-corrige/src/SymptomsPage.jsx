@@ -2,42 +2,53 @@ import React from 'react';
 import { Eye, AlertCircle, Thermometer } from 'lucide-react';
 import InfoCard from './InfoCard';
 import ImageGallery from './ImageGallery';
+import erupation from './IMG-20250520-WA0014.jpg';
+import erupation2 from './IMG-20250520-WA0015.jpg';
+import Conjonctivite from './IMG-20250520-WA0012.jpg';
+import erupation3 from './IMG-20250520-WA0005.jpg';
+import fievre from './IMG-20250520-WA0008.jpg';
+import ecoulement from './IMG-20250520-WA0007.jpg';
+import erupation4 from './eruption.jpg';
+import fievre from './IMG-20250520-WA0008.jpg'
+import eruptive from './eruptive.jpg';
+
+
 
 function SymptomsPage() {
   // Images pour la galerie des symptômes
   const symptomImages = [
     { 
-      src: "/src/IMG-20250520-WA0014.jpg", 
+      src: erupation, 
       alt: "Éruption cutanée sur la main", 
       caption: "Éruption cutanée caractéristique sur la main" 
     },
     { 
-      src: "/src/IMG-20250520-WA0015.jpg", 
+      src: erupation2, 
       alt: "Éruption sur le bras", 
       caption: "Éruption cutanée sur le bras" 
     },
     { 
-      src: "/src/IMG-20250520-WA0012.jpg", 
+      src: Conjonctivite, 
       alt: "Conjonctivite", 
       caption: "Conjonctivite et rougeur des yeux" 
     },
     { 
-      src: "/src/IMG-20250520-WA0005.jpg", 
+      src: erupation3, 
       alt: "Éruption chez l'enfant", 
       caption: "Éruption chez un jeune enfant" 
     },
     { 
-      src: "/src/IMG-20250520-WA0008.jpg", 
+      src: fievre, 
       alt: "Enfant avec fièvre", 
       caption: "Fièvre élevée, symptôme courant" 
     },
     { 
-      src: "/src/IMG-20250520-WA0007.jpg", 
+      src: ecoulement, 
       alt: "Écoulement nasal", 
       caption: "Écoulement nasal et rhinite" 
     },
     { 
-      src: "/src/eruption.jpg", 
+      src: erupation4, 
       alt: "Éruption cutanée", 
       caption: "Éruption cutanée généralisée" 
     }
@@ -87,7 +98,7 @@ function SymptomsPage() {
             </p>
             <div className="mt-4 text-center">
               <img 
-                src="/src/IMG-20250520-WA0008.jpg" 
+                src={fievre}
                 alt="Enfant avec fièvre" 
                 className="w-32 h-32 object-cover rounded-lg mx-auto border-2 border-yellow-200"
               />
@@ -104,7 +115,7 @@ function SymptomsPage() {
             </p>
             <div className="mt-4 text-center">
               <img 
-                src="/src/eruptive.jpg" 
+                src={eruptive}
                 alt="Éruption cutanée" 
                 className="w-32 h-32 object-cover rounded-lg mx-auto border-2 border-red-200"
               />
