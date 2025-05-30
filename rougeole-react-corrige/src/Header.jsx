@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import erupation from './IMG-20250520-WA0013.jpg"';
+import erupation from './IMG-20250520-WA0013.jpg';
 
 
 function Header() {

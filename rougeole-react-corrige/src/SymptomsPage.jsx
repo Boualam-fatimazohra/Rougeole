@@ -9,7 +9,6 @@ import erupation3 from './IMG-20250520-WA0005.jpg';
 import fievre from './IMG-20250520-WA0008.jpg';
 import ecoulement from './IMG-20250520-WA0007.jpg';
 import erupation4 from './eruption.jpg';
-import fievre from './IMG-20250520-WA0008.jpg'
 import eruptive from './eruptive.jpg';
 
 
