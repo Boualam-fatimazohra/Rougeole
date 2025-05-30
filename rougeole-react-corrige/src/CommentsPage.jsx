@@ -269,7 +269,7 @@ function CommentsPage() {
                 </>
               ) : (
                 <>
-                  <Send className="mr-2 h-5 w-5" />
+                  <Send className="bg-black mr-2 h-5 w-5" />
                   Publier le commentaire
                 </>
               )}
